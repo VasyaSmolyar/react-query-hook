@@ -2,11 +2,11 @@
   "name": "react-query-hook",
   "version": "0.1.0",
   "description": "A custom React hook for read/write variables of query string.",
-  "main": "src/useQuery.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/VasyaSmolyar/react-query-hook/issues"
   },
-  "homepage": "https://github.com/VasyaSmolyar/react-query-hook#readme"
+  "homepage": "https://github.com/VasyaSmolyar/react-query-hook#readme",
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
 }
