@@ -1,6 +1,6 @@
 {
   "name": "react-query-hook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A custom React hook for read/write variables of query string.",
   "main": "src/index.js",
   "scripts": {
